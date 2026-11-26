@@ -57,7 +57,7 @@ public class SecurityConfig {
                         //configuration.setAllowedOrigins(Collections.singletonList("http://localhost:5173"));
                         //configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173", "http://localhost:4173"));
                         //configuration.setAllowedOrigins(Arrays.asList("http://43.203.170.229", "http://43.203.170.229:80"));
-                        configuration.setAllowedOrigins(Arrays.asList("https://react-f.p-e.kr"));
+                        configuration.setAllowedOrigins(Arrays.asList("http://react-f.p-e.kr", "https://react-f.p-e.kr"));
                         configuration.setAllowedMethods(Collections.singletonList("*"));
                         configuration.setAllowCredentials(true);
 
